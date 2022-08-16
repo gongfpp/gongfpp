@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @gongfpp
-- 👀 I’m interested in video games,anime,reading.
-- 🌱 I’m currently learning c++\QT python ,and want to develope a game someday. (Now i can independently develop some QT application)
-- 💞️ Hope to find a suitable job .
+- 👀 I’m interested in video games,anime,reading,VR.
 - 📫 contact me with massgong@outlook.com or 1360187968@qq.com
 
 <!---
