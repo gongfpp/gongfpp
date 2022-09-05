@@ -2,7 +2,8 @@
 
 ### 你好，世界 👋
 
-- :orange_book: Focusing on Swift & iOS
-- :hammer: Creator of applications and frameworks
-- :ram: Founder the ObjCCN
-- :meat_on_bone: Meat lover
+- :orange_book: C++\Java
+- :hammer: Qt\Spring
+- :ram: Game\Vr\Anime
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=gongfpp&theme=merko&hide_border=true&locale=zh&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
