@@ -6,4 +6,11 @@
 - :hammer: Qt\Spring
 - :ram: Game\Vr\Anime
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=gongfpp&theme=merko&hide_border=true&locale=zh&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
+  
+    
+    
+    
+<img align="right" src="https://github-readme-streak-stats.herokuapp.com?user=gongfpp&theme=merko&hide_border=true&locale=zh&date_format=%5BY.%5Dn.j"
+
+个人小网站，暂时没活了
+https://gongfpp.github.io/
