@@ -63,7 +63,7 @@ const cards = metrics.map((metric, index) => {
   return `
   <g transform="translate(${x} 18)">
     <rect width="243" height="112" rx="11" fill="#14212c" stroke="#2b4050" />
-    <text x="17" y="28" fill="#9ab0be" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">${escapeXml(metric.label)}</text>
+    <text x="17" y="30" fill="#e2edf4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.4">${escapeXml(metric.label)}</text>
     <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">${escapeXml(formatted(metric.value))}</text>
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">${escapeXml(metric.note)}</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">0${index + 1}</text>

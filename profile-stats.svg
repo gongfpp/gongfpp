@@ -6,28 +6,28 @@
   
   <g transform="translate(20 18)">
     <rect width="243" height="112" rx="11" fill="#14212c" stroke="#2b4050" />
-    <text x="17" y="28" fill="#9ab0be" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">STARS</text>
+    <text x="17" y="28" fill="#e2edf4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.4">STARS</text>
     <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">15</text>
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">across public repositories</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">01</text>
   </g>
   <g transform="translate(277 18)">
     <rect width="243" height="112" rx="11" fill="#14212c" stroke="#2b4050" />
-    <text x="17" y="28" fill="#9ab0be" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">EXTERNAL PRs MERGED</text>
+    <text x="17" y="28" fill="#e2edf4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.4">EXTERNAL PRs MERGED</text>
     <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">2</text>
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">merged into other repositories</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">02</text>
   </g>
   <g transform="translate(534 18)">
     <rect width="243" height="112" rx="11" fill="#14212c" stroke="#2b4050" />
-    <text x="17" y="28" fill="#9ab0be" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">PUBLIC REPOSITORIES</text>
+    <text x="17" y="28" fill="#e2edf4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.4">PUBLIC REPOSITORIES</text>
     <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">58</text>
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">currently public</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">03</text>
   </g>
   <g transform="translate(791 18)">
     <rect width="243" height="112" rx="11" fill="#14212c" stroke="#2b4050" />
-    <text x="17" y="28" fill="#9ab0be" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">FOLLOWERS</text>
+    <text x="17" y="28" fill="#e2edf4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.4">FOLLOWERS</text>
     <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">1</text>
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">public GitHub profile</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">04</text>
