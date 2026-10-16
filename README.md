@@ -5,14 +5,20 @@
 
 > 主要开发实用软件和开发者工具。这里整理我持续维护的项目，以及对其他开源项目的代码贡献。
 
+<p align="center">
+  <a href="https://github-readme-stats.vercel.app/api?username=gongfpp&amp;show_icons=true&amp;theme=github_dark&amp;hide_title=true&amp;hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api?username=gongfpp&amp;show_icons=true&amp;theme=github_dark&amp;hide_title=true&amp;hide_border=true" alt="GitHub 公开统计：Stars、commits、pull requests、issues 与参与仓库数">
+  </a>
+</p>
+
 ## Selected Projects
 
 | 项目 | 简介 | 状态 / 技术 |
 | --- | --- | --- |
-| [Interface Atlas](https://github.com/gongfpp/interface-atlas) · [在线体验](https://gongfpp.github.io/interface-atlas-web/) | 可检索、可交互的前端设计参考库，提供组件与动效 Demo，以及可交给 AI Coding 工具的 Prompt。 | Astro · React · TypeScript |
-| [aki-agent-kit](https://github.com/gongfpp/aki-agent-kit) | 可复用的 AI 开发 Skills 与规则，覆盖项目启动、计划、审计、README 和任务交接。 | Shell · Agent Skills |
-| [Config Reviewer](https://github.com/gongfpp/config-reviewer) · [构建与安装包](https://github.com/gongfpp/config-reviewer-builds) | Windows 桌面工具：扫描配置与发布资料，按规则评审并导出结构化结果；提供离线安装包。 | Tauri · Rust · React · Windows x64 |
-| [穷鬼地图](https://github.com/gongfpp/poor-map) · [在线体验](https://gongfpp.github.io/poor-map/) | 查找附近折扣门店，并通过社区线索补充信息；另有独立的大水地图。门店、价格与库存信息均有明确核验边界。 | React · TypeScript · Cloudflare |
+| [Interface Atlas](https://github.com/gongfpp/interface-atlas) · [![Stars](https://img.shields.io/github/stars/gongfpp/interface-atlas?style=flat-square)](https://github.com/gongfpp/interface-atlas) · [在线体验](https://gongfpp.github.io/interface-atlas-web/) | 可检索、可交互的前端设计参考库，提供组件与动效 Demo，以及可交给 AI Coding 工具的 Prompt。 | Astro · React · TypeScript |
+| [aki-agent-kit](https://github.com/gongfpp/aki-agent-kit) · [![Stars](https://img.shields.io/github/stars/gongfpp/aki-agent-kit?style=flat-square)](https://github.com/gongfpp/aki-agent-kit) | 可复用的 AI 开发 Skills 与规则，覆盖项目启动、计划、审计、README 和任务交接。 | Shell · Agent Skills |
+| [Config Reviewer](https://github.com/gongfpp/config-reviewer) · [![Stars](https://img.shields.io/github/stars/gongfpp/config-reviewer?style=flat-square)](https://github.com/gongfpp/config-reviewer) · [构建与安装包](https://github.com/gongfpp/config-reviewer-builds) | Windows 桌面工具：扫描配置与发布资料，按规则评审并导出结构化结果；提供离线安装包。 | Tauri · Rust · React · Windows x64 |
+| [穷鬼地图](https://github.com/gongfpp/poor-map) · [![Stars](https://img.shields.io/github/stars/gongfpp/poor-map?style=flat-square)](https://github.com/gongfpp/poor-map) · [在线体验](https://gongfpp.github.io/poor-map/) | 查找附近折扣门店，并通过社区线索补充信息；另有独立的大水地图。门店、价格与库存信息均有明确核验边界。 | React · TypeScript · Cloudflare |
 
 ## Open Source Contributions
 
@@ -23,4 +29,4 @@
 
 ---
 
-<sub>项目状态与功能范围以各仓库和在线页面为准；不展示动态统计或未经核验的指标。</sub>
+<sub>统计卡与项目 Stars 徽章由第三方服务自动更新，可能受缓存或服务可用性影响；项目状态与功能范围以各仓库和在线页面为准。</sub>
