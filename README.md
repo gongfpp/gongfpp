@@ -67,6 +67,18 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/morluto/rea/pull/4661">REA #4661</a></h3>
+      <p>统一 MCP 与 CLI 的浏览器场景输入错误格式，并补充 MCP 回归测试。</p>
+      <sub>MERGED · CI passed</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/morluto/rea/pull/4663">REA #4663</a></h3>
+      <p>ADB 权限信息不完整时明确标记为 partial，避免把未知状态误报为完整的零权限。</p>
+      <sub>MERGED · CI passed</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/langgenius/dify/pull/44055">Dify #44055</a></h3>
       <p>用 Pydantic <code>TypeAdapter</code> 校验 Provider 配置缓存数据，减少手写解析与类型判断。</p>
       <sub>MERGED · 42 checks passed</sub>
