@@ -67,27 +67,47 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/morluto/rea/pull/4661">REA #4661</a></h3>
-      <p>统一 MCP 与 CLI 的浏览器场景输入错误格式，并补充 MCP 回归测试。</p>
-      <sub>MERGED · CI passed</sub>
+      <h3><a href="https://github.com/morluto/rea/pull/6358">REA #6358</a></h3>
+      <p>补记采集过程中迟到的脚本元数据，避免不完整的页面脚本快照被误判为 unchanged。</p>
+      <sub>MERGED</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/morluto/rea/pull/4663">REA #4663</a></h3>
-      <p>ADB 权限信息不完整时明确标记为 partial，避免把未知状态误报为完整的零权限。</p>
-      <sub>MERGED · CI passed</sub>
+      <h3><a href="https://github.com/morluto/rea/pull/6341">REA #6341</a></h3>
+      <p>保留 JavaScript 存储值的 UTF-16 码元，避免不同字符串被错误地判为相同。</p>
+      <sub>MERGED</sub>
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/morluto/rea/pull/6298">REA #6298</a></h3>
+      <p>让进程比较结果保留 contradiction 状态，拒绝把互相矛盾的汇总误判为验证成功。</p>
+      <sub>MERGED</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/morluto/rea/pull/4661">REA #4661</a></h3>
+      <p>统一 MCP 与 CLI 的浏览器场景输入错误格式，并补充 MCP 回归测试。</p>
+      <sub>MERGED</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/morluto/rea/pull/4663">REA #4663</a></h3>
+      <p>ADB 权限信息不完整时明确标记为 partial，避免把未知状态误报为完整的零权限。</p>
+      <sub>MERGED</sub>
+    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/langgenius/dify/pull/44055">Dify #44055</a></h3>
       <p>用 Pydantic <code>TypeAdapter</code> 校验 Provider 配置缓存数据，减少手写解析与类型判断。</p>
       <sub>MERGED · 42 checks passed</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/morluto/rea/pull/2941">REA #2941</a></h3>
       <p>复用 JavaScript 语义分析中的稳定查找结果，减少重复计算并保持该样例的 IR 输出一致。</p>
       <sub>MERGED</sub>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
