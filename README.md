@@ -13,14 +13,14 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://gongfpp.github.io/kurumi-fx-pages/"><img align="left" src="assets/projects/kurumi.png" width="140" height="84" alt="久留美外汇：游戏模式选择界面"></a>
       <strong><a href="https://github.com/gongfpp/kurumi-fx-pages">久留美外汇</a></strong><br>
       <sub>外汇模拟游戏，在行情与剧情中体验交易。</sub><br>
       <sub>Web · 游戏 · 公开试玩版</sub><br>
       <sub><a href="https://github.com/gongfpp/kurumi-fx-pages">仓库</a> · <a href="https://gongfpp.github.io/kurumi-fx-pages/">在线体验 ↗</a></sub>
     </td>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://github.com/gongfpp/NetBall"><img align="left" src="assets/projects/netball.png" width="140" height="84" alt="NetBall 流量面板预览，速率为示例数据"></a>
       <strong><a href="https://github.com/gongfpp/NetBall">流量悬浮球 NetBall</a></strong><br>
       <sub>macOS 菜单栏与悬浮球，随时查看应用流量。</sub><br>
@@ -29,14 +29,14 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://github.com/gongfpp/aki-agent-kit"><img align="left" src="assets/projects/agent-kit.png" width="140" height="84" alt="aki-agent-kit：中文 AI 开发 Skill 集封面"></a>
       <strong><a href="https://github.com/gongfpp/aki-agent-kit">aki-agent-kit</a></strong><br>
       <sub>中文 AI 开发 Skills 与规则，覆盖项目全流程。</sub><br>
       <sub>Shell · Agent Skills</sub><br>
       <sub><a href="https://github.com/gongfpp/aki-agent-kit">仓库 ↗</a></sub>
     </td>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://gongfpp.github.io/NovelFish/"><img align="left" src="assets/projects/novelfish.png" width="140" height="84" alt="NovelFish：将小说藏在深度思考里的阅读界面"></a>
       <strong><a href="https://github.com/gongfpp/NovelFish">NovelFish</a></strong><br>
       <sub>把小说藏进「深度思考」里，DeepSeek 风格摸鱼工具。</sub><br>
@@ -45,14 +45,14 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://gongfpp.github.io/poor-map/"><img align="left" src="assets/projects/poor-map.png" width="140" height="84" alt="穷鬼地图：附近折扣门店与地图标记"></a>
       <strong><a href="https://github.com/gongfpp/poor-map">穷鬼地图</a></strong><br>
       <sub>发现附近的折扣门店与优惠活动。</sub><br>
       <sub>React · TypeScript · 高德地图</sub><br>
       <sub><a href="https://github.com/gongfpp/poor-map">仓库</a> · <a href="https://gongfpp.github.io/poor-map/">在线体验 ↗</a></sub>
     </td>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://gongfpp.github.io/interface-atlas-web/"><img align="left" src="assets/projects/interface-atlas.png" width="140" height="84" alt="界面图谱：前端设计参考库首页"></a>
       <strong><a href="https://github.com/gongfpp/interface-atlas">界面图谱 Interface Atlas</a></strong><br>
       <sub>前端设计概念、交互示例与 Agent Prompt 参考库。</sub><br>
@@ -61,14 +61,14 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="420" valign="top">
       <a href="https://gongfpp.github.io/monkey-shakespeare-web/"><img align="left" src="assets/projects/monkey-shakespeare.png" width="140" height="84" alt="猿与莎士比亚：像素风工作室经营游戏界面"></a>
       <strong><a href="https://github.com/gongfpp/monkey-shakespeare-web">猿与莎士比亚</a></strong><br>
       <sub>从一间工作室开始的像素风增量经营游戏。</sub><br>
       <sub>Godot · Web 游戏 · 公开试玩版</sub><br>
       <sub><a href="https://github.com/gongfpp/monkey-shakespeare-web">仓库</a> · <a href="https://gongfpp.github.io/monkey-shakespeare-web/">在线体验 ↗</a></sub>
     </td>
-    <td width="50%" valign="middle">
+    <td width="420" valign="middle">
       <strong>还有一些正在生长的想法。</strong><br>
       <sub><a href="https://github.com/gongfpp?tab=repositories">浏览全部公开仓库 →</a></sub><br>
       <sub>软件 · 工具 · 游戏</sub>
