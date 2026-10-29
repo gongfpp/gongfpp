@@ -3,7 +3,7 @@
   <p>个人开发者 · Web / Desktop / Android</p>
 </div>
 
-> 主要开发实用软件和开发者工具。这里整理我持续维护的项目，以及对其他开源项目的代码贡献。
+> 主要开发实用软件和开发者工具。这里整理我持续维护的项目，以及对其他项目的开源贡献。
 
 <p align="center">
   <img src="profile-stats.svg" width="100%" alt="动态统计卡：公开仓库 Stars、已合并的外部 PR、公开仓库数和关注者">
@@ -25,7 +25,7 @@
       <strong><a href="https://github.com/gongfpp/NetBall">流量悬浮球 NetBall</a></strong><br>
       <sub>macOS 菜单栏与悬浮球，随时查看应用流量。</sub><br>
       <sub>macOS · 网络工具</sub><br>
-      <sub><a href="https://github.com/gongfpp/NetBall">仓库 ↗</a></sub>
+      <sub><a href="https://github.com/gongfpp/NetBall">仓库</a> · <a href="https://github.com/gongfpp/NetBall/releases/latest">下载最新版 ↗</a></sub>
     </td>
   </tr>
   <tr>
@@ -68,28 +68,36 @@
       <sub>Godot · Web 游戏 · 公开试玩版</sub><br>
       <sub><a href="https://github.com/gongfpp/monkey-shakespeare-web">仓库</a> · <a href="https://gongfpp.github.io/monkey-shakespeare-web/">在线体验 ↗</a></sub>
     </td>
-    <td width="420" valign="middle">
-      <strong>还有一些正在生长的想法。</strong><br>
-      <sub><a href="https://github.com/gongfpp?tab=repositories">浏览全部公开仓库 →</a></sub><br>
-      <sub>软件 · 工具 · 游戏</sub>
+    <td width="420" valign="top">
+      <a href="https://github.com/gongfpp/dsh-novel-fish"><img align="left" src="assets/projects/dsh-novel-fish.svg" width="140" height="84" alt="DSH 小说摸鱼的原创书本图标"></a>
+      <strong><a href="https://github.com/gongfpp/dsh-novel-fish">DSH 小说摸鱼</a></strong><br>
+      <sub>在真实聊天的思考与工具区域续读本地小说，不发送给模型。</sub><br>
+      <sub>DSH 插件 · 本地阅读 · 非官方</sub><br>
+      <sub><a href="https://github.com/gongfpp/dsh-novel-fish">仓库</a> · <a href="https://github.com/gongfpp/dsh-novel-fish/releases/latest">安装与发布 ↗</a></sub>
     </td>
   </tr>
 </table>
 
+[浏览全部公开仓库 →](https://github.com/gongfpp?tab=repositories)
+
 ## Open Source Contributions
 
-对**其他组织 / 作者项目**的已合并贡献，按项目汇总，不包含自己的仓库。
+截至 **2026-10-30（UTC+8）**，对 **4 个其他组织 / 作者项目**有 **12 个公开已合并 PR**，不包含自己的仓库。插件目录收录与更新单独列出，不计作 DSH 核心代码贡献。
 
 | 项目 | 已合并 PR | 贡献方向 |
 | --- | --- | --- |
-| [**REA**](https://github.com/morluto/rea)<br><sub>morluto / rea</sub> | [**6 merged ↗**](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 浏览器采集一致性 · MCP / CLI · JavaScript 分析 |
+| [**REA**](https://github.com/morluto/rea)<br><sub>morluto / rea</sub> | [**8 merged ↗**](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 浏览器采集一致性 · MCP / CLI · JavaScript / WASM 分析 · CI 示例 |
 | [**Dify**](https://github.com/langgenius/dify)<br><sub>langgenius / dify</sub> | [**1 merged ↗**](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | Provider 配置缓存 · Pydantic 类型校验 |
+| [**Awesome DSH Plugin**](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)<br><sub>awesome-dsh-plugin / awesome-dsh-plugin</sub> | [**2 merged ↗**](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 小说摸鱼插件收录 · 预构建发布地址更新 |
+| [**Awesome DeepSeek Harness Plugins**](https://github.com/imsai-sh/awesome-deepseek-harness-plugins)<br><sub>imsai-sh / awesome-deepseek-harness-plugins</sub> | [**1 merged ↗**](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 小说摸鱼本地阅读插件收录 |
 
 <details>
-<summary>展开全部 7 个 PR 的具体贡献</summary>
+<summary>展开全部 12 个 PR 的具体贡献</summary>
 
-### REA · 6 个已合并
+### REA · 8 个已合并
 
+- [#6802](https://github.com/morluto/rea/pull/6802)：修复 WASM glue 中查询串或片段含行分隔符时的引用遗漏，并保留 UTF-16 坐标与候选关联。
+- [#6496](https://github.com/morluto/rea/pull/6496)：补充可复用的静态分析 CI 示例，保留 JSON / 错误报告与原始退出码，并补回归测试。
 - [#6358](https://github.com/morluto/rea/pull/6358)：补记采集过程中迟到的脚本元数据，避免不完整的页面脚本快照被误判为 unchanged。
 - [#6341](https://github.com/morluto/rea/pull/6341)：保留 JavaScript 存储值的 UTF-16 码元，避免不同字符串被错误地判为相同。
 - [#6298](https://github.com/morluto/rea/pull/6298)：让进程比较结果保留 contradiction 状态，拒绝把互相矛盾的汇总误判为验证成功。
@@ -101,8 +109,17 @@
 
 - [#44055](https://github.com/langgenius/dify/pull/44055)：用 Pydantic `TypeAdapter` 校验 Provider 配置缓存数据，减少手写解析与类型判断。
 
+### Awesome DSH Plugin · 2 个已合并
+
+- [#10407](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10407)：将小说摸鱼的预构建发布地址更新至 0.1.5。
+- [#9655](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/9655)：收录小说摸鱼插件，并固定 GitHub Release 安装包地址。
+
+### Awesome DeepSeek Harness Plugins · 1 个已合并
+
+- [#707](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/707)：将支持本地 EPUB / TXT / Markdown 阅读的小说摸鱼插件收录进社区目录。
+
 </details>
 
 ---
 
-<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新；数据可能有一天左右的刷新延迟。汇总表与 PR 介绍为精选记录，完整最新列表可点击各项目的已合并数量查看。缩略图来自项目公开截图或预览素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>
+<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，日期使用 UTC；数据可能有一天左右的刷新延迟。贡献表与 PR 介绍为上方核验日期的记录，最新列表可点击各项目的已合并数量查看。缩略图与图标来自项目公开截图或素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>
