@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1050" height="148" viewBox="0 0 1050 148" role="img" aria-labelledby="title desc">
   <title id="title">GitHub public statistics for gongfpp</title>
-  <desc id="desc">Stars across public repositories, merged external pull requests, public repositories, and followers. Updated 2026-10-30.</desc>
+  <desc id="desc">Stars across public repositories, merged external pull requests, public repositories, and followers. Updated 2026-10-31.</desc>
   <rect width="1050" height="148" rx="15" fill="#0f1821" stroke="#263947" />
   
   <g transform="translate(20 18)">
@@ -21,7 +21,7 @@
   <g transform="translate(534 18)">
     <rect width="243" height="112" rx="11" fill="#14212c" stroke="#2b4050" />
     <text x="17" y="30" fill="#e2edf4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.4">PUBLIC REPOSITORIES</text>
-    <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">69</text>
+    <text x="17" y="70" fill="#9fe0cd" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">71</text>
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">currently public</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">03</text>
   </g>
@@ -32,5 +32,5 @@
     <text x="17" y="94" fill="#7f96a5" font-family="Segoe UI,Arial,sans-serif" font-size="10">public GitHub profile</text>
     <text x="218" y="28" text-anchor="end" fill="#59778a" font-family="Segoe UI,Arial,sans-serif" font-size="10">04</text>
   </g>
-  <text x="1030" y="140" text-anchor="end" fill="#627988" font-family="Segoe UI,Arial,sans-serif" font-size="8">UPDATED 2026-10-30 UTC · PUBLIC DATA</text>
+  <text x="1030" y="140" text-anchor="end" fill="#627988" font-family="Segoe UI,Arial,sans-serif" font-size="8">UPDATED 2026-10-31 UTC · PUBLIC DATA</text>
 </svg>
