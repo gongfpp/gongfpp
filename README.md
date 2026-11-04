@@ -1,9 +1,13 @@
 <div align="center">
   <h1>gongfpp</h1>
-  <p>个人开发者 · Web / Desktop / Android</p>
+  <p>独立开发者 · Web / Desktop / Android</p>
 </div>
 
-> 主要开发实用软件和开发者工具。这里整理我持续维护的项目，以及对其他项目的开源贡献。
+主要开发实用软件、AI 开发工具和独立游戏，也参与开源项目的修复与改进。
+
+**欢迎交流远程工作机会与项目合作**，方向包括 Web 应用、桌面工具和 AI 相关开发。
+
+[个人网站 ↗](https://gongfpp.github.io/)
 
 <p align="center">
   <img src="profile-stats.svg" width="100%" alt="动态统计卡：公开仓库 Stars、已合并的外部 PR、公开仓库数和关注者">
@@ -37,11 +41,11 @@
       <sub><a href="https://github.com/gongfpp/aki-agent-kit">仓库 ↗</a></sub>
     </td>
     <td width="420" valign="top">
-      <a href="https://gongfpp.github.io/NovelFish/"><img align="left" src="assets/projects/novelfish.png" width="140" height="84" alt="NovelFish：将小说藏在深度思考里的阅读界面"></a>
-      <strong><a href="https://github.com/gongfpp/NovelFish">NovelFish</a></strong><br>
-      <sub>把小说藏进「深度思考」里，DeepSeek 风格摸鱼工具。</sub><br>
-      <sub>Web · 阅读工具 · 非官方</sub><br>
-      <sub><a href="https://github.com/gongfpp/NovelFish">仓库</a> · <a href="https://gongfpp.github.io/NovelFish/">在线体验 ↗</a></sub>
+      <a href="https://github.com/gongfpp/dsh-novel-fish"><img align="left" src="assets/projects/dsh-novel-fish.svg" width="140" height="84" alt="DSH 小说摸鱼的原创书本图标"></a>
+      <strong><a href="https://github.com/gongfpp/dsh-novel-fish">DSH 小说摸鱼</a></strong><br>
+      <sub>在真实聊天的思考与工具区域续读本地小说，不发送给模型。</sub><br>
+      <sub>DSH 插件 · 本地阅读 · 非官方</sub><br>
+      <sub><a href="https://github.com/gongfpp/dsh-novel-fish">仓库</a> · <a href="https://github.com/gongfpp/dsh-novel-fish/releases/latest">安装与发布 ↗</a></sub>
     </td>
   </tr>
   <tr>
@@ -61,19 +65,12 @@
     </td>
   </tr>
   <tr>
-    <td width="420" valign="top">
+    <td colspan="2" valign="top">
       <a href="https://gongfpp.github.io/monkey-shakespeare-web/"><img align="left" src="assets/projects/monkey-shakespeare.png" width="140" height="84" alt="猿与莎士比亚：像素风工作室经营游戏界面"></a>
       <strong><a href="https://github.com/gongfpp/monkey-shakespeare-web">猿与莎士比亚</a></strong><br>
       <sub>从一间工作室开始的像素风增量经营游戏。</sub><br>
       <sub>Godot · Web 游戏 · 公开试玩版</sub><br>
       <sub><a href="https://github.com/gongfpp/monkey-shakespeare-web">仓库</a> · <a href="https://gongfpp.github.io/monkey-shakespeare-web/">在线体验 ↗</a></sub>
-    </td>
-    <td width="420" valign="top">
-      <a href="https://github.com/gongfpp/dsh-novel-fish"><img align="left" src="assets/projects/dsh-novel-fish.svg" width="140" height="84" alt="DSH 小说摸鱼的原创书本图标"></a>
-      <strong><a href="https://github.com/gongfpp/dsh-novel-fish">DSH 小说摸鱼</a></strong><br>
-      <sub>在真实聊天的思考与工具区域续读本地小说，不发送给模型。</sub><br>
-      <sub>DSH 插件 · 本地阅读 · 非官方</sub><br>
-      <sub><a href="https://github.com/gongfpp/dsh-novel-fish">仓库</a> · <a href="https://github.com/gongfpp/dsh-novel-fish/releases/latest">安装与发布 ↗</a></sub>
     </td>
   </tr>
 </table>
