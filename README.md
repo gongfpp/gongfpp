@@ -10,7 +10,7 @@
 [个人网站 ↗](https://gongfpp.github.io/)
 
 <p align="center">
-  <img src="profile-stats.svg" width="100%" alt="动态统计卡：公开仓库 Stars、已合并的外部 PR、公开仓库数和关注者">
+  <img src="profile-stats.svg" width="100%" alt="动态统计卡：公开仓库 Stars、已合并的外部 PR（不含插件目录）、公开仓库数和关注者">
 </p>
 
 ## Selected Projects
@@ -79,17 +79,15 @@
 
 ## Open Source Contributions
 
-截至 **2026-10-30（UTC+8）**，对 **4 个其他组织 / 作者项目**有 **12 个公开已合并 PR**，不包含自己的仓库。插件目录收录与更新单独列出，不计作 DSH 核心代码贡献。
+主要参与浏览器采集、静态分析与配置校验的修复和改进。以下为截至 **2026-10-30（UTC+8）** 整理的 **9 个已合并 PR**，不含自己的仓库及插件目录收录。
 
-| 项目 | 已合并 PR | 贡献方向 |
+| 项目 | 解决的问题与改进 | 已合并 PR |
 | --- | --- | --- |
-| [**REA**](https://github.com/morluto/rea)<br><sub>morluto / rea</sub> | [**8 merged ↗**](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 浏览器采集一致性 · MCP / CLI · JavaScript / WASM 分析 · CI 示例 |
-| [**Dify**](https://github.com/langgenius/dify)<br><sub>langgenius / dify</sub> | [**1 merged ↗**](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | Provider 配置缓存 · Pydantic 类型校验 |
-| [**Awesome DSH Plugin**](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)<br><sub>awesome-dsh-plugin / awesome-dsh-plugin</sub> | [**2 merged ↗**](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 小说摸鱼插件收录 · 预构建发布地址更新 |
-| [**Awesome DeepSeek Harness Plugins**](https://github.com/imsai-sh/awesome-deepseek-harness-plugins)<br><sub>imsai-sh / awesome-deepseek-harness-plugins</sub> | [**1 merged ↗**](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) | 小说摸鱼本地阅读插件收录 |
+| [**REA**](https://github.com/morluto/rea) | 修复脚本快照遗漏、UTF-16 比较与 WASM 引用解析问题；统一 MCP / CLI 错误输出，补充回归测试与 CI 示例。 | [8 merged ↗](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**Dify**](https://github.com/langgenius/dify) | 用 Pydantic `TypeAdapter` 校验 Provider 配置缓存，减少手写解析与类型判断。 | [1 merged ↗](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 
 <details>
-<summary>展开全部 12 个 PR 的具体贡献</summary>
+<summary>查看这 9 个 PR 的具体贡献</summary>
 
 ### REA · 8 个已合并
 
@@ -106,12 +104,17 @@
 
 - [#44055](https://github.com/langgenius/dify/pull/44055)：用 Pydantic `TypeAdapter` 校验 Provider 配置缓存数据，减少手写解析与类型判断。
 
-### Awesome DSH Plugin · 2 个已合并
+</details>
+
+<details>
+<summary>生态参与：小说摸鱼插件的社区目录收录与发布地址维护</summary>
+
+### Awesome DSH Plugin
 
 - [#10407](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10407)：将小说摸鱼的预构建发布地址更新至 0.1.5。
 - [#9655](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/9655)：收录小说摸鱼插件，并固定 GitHub Release 安装包地址。
 
-### Awesome DeepSeek Harness Plugins · 1 个已合并
+### Awesome DeepSeek Harness Plugins
 
 - [#707](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/707)：将支持本地 EPUB / TXT / Markdown 阅读的小说摸鱼插件收录进社区目录。
 
@@ -119,4 +122,4 @@
 
 ---
 
-<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，日期使用 UTC；数据可能有一天左右的刷新延迟。贡献表与 PR 介绍为上方核验日期的记录，最新列表可点击各项目的已合并数量查看。缩略图与图标来自项目公开截图或素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>
+<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，外部 PR 数排除自己的仓库及下方生态参与中的两个插件目录；日期使用 UTC，数据可能有一天左右的刷新延迟。贡献表与 PR 介绍为上方核验日期的精选记录，最新列表可点击各项目的已合并数量查看。缩略图与图标来自项目公开截图或素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>

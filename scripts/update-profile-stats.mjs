@@ -20,19 +20,6 @@ async function getJson(path) {
   return response.json()
 }
 
-async function getGraphqlData(query) {
-  const response = await fetch(`${api}/graphql`, {
-    method: 'POST',
-    headers: { ...headers, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ query }),
-  })
-  const result = await response.json()
-  if (!response.ok || result.errors?.length) {
-    throw new Error(`GitHub GraphQL error: ${JSON.stringify(result.errors ?? result).slice(0, 240)}`)
-  }
-  return result.data
-}
-
 const profile = await getJson(`/users/${owner}`)
 const repos = []
 for (let page = 1; ; page += 1) {
@@ -41,17 +28,25 @@ for (let page = 1; ; page += 1) {
   if (batch.length < 100) break
 }
 
-const contributionQuery = `query {
-  search(query: "author:${owner} is:pr is:merged -user:${owner}", type: ISSUE, first: 1) {
-    issueCount
-  }
-}`
-const contributionData = await getGraphqlData(contributionQuery)
-const upstreamMergedPRs = contributionData.search.issueCount
+// Keep community catalog submissions separate from upstream project contributions.
+// Add other catalog repositories here when they are listed under ecosystem participation.
+const pluginCatalogs = [
+  'awesome-dsh-plugin/awesome-dsh-plugin',
+  'imsai-sh/awesome-deepseek-harness-plugins',
+]
+const contributionQuery = [
+  `author:${owner} is:pr is:merged -user:${owner}`,
+  ...pluginCatalogs.map((repo) => `-repo:${repo}`),
+].join(' ')
+const contributionData = await getJson(`/search/issues?q=${encodeURIComponent(contributionQuery)}&per_page=1`)
+if (contributionData.incomplete_results || !Number.isSafeInteger(contributionData.total_count) || contributionData.total_count < 0) {
+  throw new Error('GitHub search returned an incomplete or invalid contribution count')
+}
+const upstreamMergedPRs = contributionData.total_count
 
 const metrics = [
   { label: 'STARS', value: repos.reduce((sum, repo) => sum + repo.stargazers_count, 0), note: 'across public repositories' },
-  { label: 'EXTERNAL PRs MERGED', value: upstreamMergedPRs, note: 'merged into other repositories' },
+  { label: 'EXTERNAL PRs MERGED', value: upstreamMergedPRs, note: 'excluding plugin catalogs' },
   { label: 'PUBLIC REPOSITORIES', value: profile.public_repos, note: 'currently public' },
   { label: 'FOLLOWERS', value: profile.followers, note: 'public GitHub profile' },
 ]
@@ -73,7 +68,7 @@ const updated = new Date().toISOString().slice(0, 10)
 const svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1050" height="148" viewBox="0 0 1050 148" role="img" aria-labelledby="title desc">
   <title id="title">GitHub public statistics for ${owner}</title>
-  <desc id="desc">Stars across public repositories, merged external pull requests, public repositories, and followers. Updated ${updated}.</desc>
+  <desc id="desc">Stars across public repositories, merged external pull requests excluding listed plugin catalogs, public repositories, and followers. Updated ${updated}.</desc>
   <rect width="1050" height="148" rx="15" fill="#0f1821" stroke="#263947" />
   ${cards}
   <text x="1030" y="140" text-anchor="end" fill="#627988" font-family="Segoe UI,Arial,sans-serif" font-size="8">UPDATED ${updated} UTC · PUBLIC DATA</text>
