@@ -107,7 +107,7 @@
 </details>
 
 <details>
-<summary>生态参与：小说摸鱼插件的社区目录收录与发布地址维护</summary>
+<summary>生态参与：社区插件目录收录与维护</summary>
 
 ### Awesome DSH Plugin
 
