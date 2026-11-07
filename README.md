@@ -109,18 +109,19 @@
 <details>
 <summary>生态参与：社区插件目录收录与维护</summary>
 
-### Awesome DSH Plugin
+### [小说摸鱼](https://github.com/gongfpp/dsh-novel-fish)
 
-- [#12155](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12155)：收录每轮扣款语音播报插件 `dsh-cost-voice`。
-- [#12015](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12015)：收录谢谢卡尔插件 `dsh-thanks-carl`。
-- [#9655](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/9655)：收录小说摸鱼插件，并固定 GitHub Release 安装包地址。
-- [#10407](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10407)、[#12228](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12228)：将小说摸鱼的预构建发布地址先后更新至 0.1.5、1.0.1。
+收录渠道：[Awesome DSH Plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/9655) · [Awesome DeepSeek Harness Plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/707)
 
-### Awesome DeepSeek Harness Plugins
+发布地址维护：[0.1.5](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10407) · [1.0.1](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12228)
 
-- [#832](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/832)：收录每轮扣款语音播报插件 `dsh-cost-voice`。
-- [#833](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/833)：收录谢谢卡尔插件 `dsh-thanks-carl`。
-- [#707](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/707)：将支持本地 EPUB / TXT / Markdown 阅读的小说摸鱼插件收录进社区目录。
+### [每轮扣款语音播报](https://github.com/gongfpp/dsh-cost-voice)
+
+收录渠道：[Awesome DSH Plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12155) · [Awesome DeepSeek Harness Plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/832)
+
+### [谢谢卡尔](https://github.com/gongfpp/dsh-thanks-carl)
+
+收录渠道：[Awesome DSH Plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12015) · [Awesome DeepSeek Harness Plugins](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/833)
 
 </details>
 
