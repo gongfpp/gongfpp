@@ -41,11 +41,11 @@
       <sub><a href="https://github.com/gongfpp/aki-agent-kit">仓库 ↗</a></sub>
     </td>
     <td width="420" valign="top">
-      <a href="https://github.com/gongfpp/dsh-novel-fish"><img align="left" src="assets/projects/dsh-novel-fish.svg" width="140" height="84" alt="DSH 小说摸鱼的原创书本图标"></a>
-      <strong><a href="https://github.com/gongfpp/dsh-novel-fish">DSH 小说摸鱼</a></strong><br>
-      <sub>在真实聊天的思考与工具区域续读本地小说，不发送给模型。</sub><br>
-      <sub>DSH 插件 · 本地阅读 · 非官方</sub><br>
-      <sub><a href="https://github.com/gongfpp/dsh-novel-fish">仓库</a> · <a href="https://github.com/gongfpp/dsh-novel-fish/releases/latest">安装与发布 ↗</a></sub>
+      <strong>DSH 插件</strong><br>
+      <sub><a href="https://github.com/gongfpp/dsh-novel-fish">小说摸鱼 ↗</a>：在思考与工具区域续读本地小说，不发送给模型。</sub><br>
+      <sub><a href="https://github.com/gongfpp/dsh-cost-voice">每轮扣款语音播报 ↗</a>：每轮结束，用支付宝或「大白饭」音色播报本轮估算花费。</sub><br>
+      <sub><a href="https://github.com/gongfpp/dsh-thanks-carl">谢谢卡尔 ↗</a>：任务完成彩蛋与常驻桌宠，附喝水、吃饭和休息提醒。</sub><br>
+      <sub>DeepSeek Harness · 非官方插件</sub>
     </td>
   </tr>
   <tr>
@@ -111,15 +111,19 @@
 
 ### Awesome DSH Plugin
 
-- [#10407](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10407)：将小说摸鱼的预构建发布地址更新至 0.1.5。
+- [#12155](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12155)：收录每轮扣款语音播报插件 `dsh-cost-voice`。
+- [#12015](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12015)：收录谢谢卡尔插件 `dsh-thanks-carl`。
 - [#9655](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/9655)：收录小说摸鱼插件，并固定 GitHub Release 安装包地址。
+- [#10407](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/10407)、[#12228](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/12228)：将小说摸鱼的预构建发布地址先后更新至 0.1.5、1.0.1。
 
 ### Awesome DeepSeek Harness Plugins
 
+- [#832](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/832)：收录每轮扣款语音播报插件 `dsh-cost-voice`。
+- [#833](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/833)：收录谢谢卡尔插件 `dsh-thanks-carl`。
 - [#707](https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/707)：将支持本地 EPUB / TXT / Markdown 阅读的小说摸鱼插件收录进社区目录。
 
 </details>
 
 ---
 
-<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，外部 PR 数排除自己的仓库及下方生态参与中的两个插件目录；日期使用 UTC，数据可能有一天左右的刷新延迟。贡献表与 PR 介绍为上方核验日期的精选记录，最新列表可点击各项目的已合并数量查看。缩略图与图标来自项目公开截图或素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>
+<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，外部 PR 数排除自己的仓库及生态参与中列出的两个插件目录；日期使用 UTC，数据可能有一天左右的刷新延迟。代码贡献表与明细为上方核验日期的精选记录，最新列表可点击各项目的已合并数量查看。缩略图与图标来自项目公开截图或素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>
