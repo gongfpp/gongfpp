@@ -33,6 +33,7 @@ for (let page = 1; ; page += 1) {
 const pluginCatalogs = [
   'awesome-dsh-plugin/awesome-dsh-plugin',
   'imsai-sh/awesome-deepseek-harness-plugins',
+  'zhu1090093659/dsh-community-plugins',
 ]
 const contributionQuery = [
   `author:${owner} is:pr is:merged -user:${owner}`,
