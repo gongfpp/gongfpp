@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="assets/projects/selected/profile-icon.png" width="64" height="64" alt="gongfpp 的猫咪头像">
   <h1>gongfpp</h1>
   <p>独立开发者 · Web / Desktop / Android</p>
 </div>
@@ -17,60 +18,75 @@
 
 <table>
   <tr>
-    <td width="420" valign="top">
-      <a href="https://gongfpp.github.io/kurumi-fx-pages/"><img align="left" src="assets/projects/kurumi.png" width="140" height="84" alt="久留美外汇：游戏模式选择界面"></a>
-      <strong><a href="https://github.com/gongfpp/kurumi-fx-pages">久留美外汇</a></strong><br>
-      <sub>外汇模拟游戏，在行情与剧情中体验交易。</sub><br>
-      <sub>Web · 游戏 · 公开试玩版</sub><br>
-      <sub><a href="https://github.com/gongfpp/kurumi-fx-pages">仓库</a> · <a href="https://gongfpp.github.io/kurumi-fx-pages/">在线体验 ↗</a></sub>
+    <td width="50%" valign="top">
+      <a href="https://gongfpp.github.io/interface-atlas-web/"><img src="assets/projects/selected/atlas.webp" width="100%" alt="界面图谱真实首页：搜索设计概念、探索风格与交互示例"></a>
+      <h3><a href="https://gongfpp.github.io/interface-atlas-web/">界面图谱 Interface Atlas</a></h3>
+      <p>从口语描述找到设计术语，亲手试交互，再把 Prompt 带进项目。</p>
+      <p><a href="https://gongfpp.github.io/interface-atlas-web/">在线体验 ↗</a> · <a href="https://github.com/gongfpp/interface-atlas">仓库</a></p>
     </td>
-    <td width="420" valign="top">
-      <a href="https://github.com/gongfpp/NetBall"><img align="left" src="assets/projects/netball.png" width="140" height="84" alt="NetBall 流量面板预览，速率为示例数据"></a>
-      <strong><a href="https://github.com/gongfpp/NetBall">流量悬浮球 NetBall</a></strong><br>
-      <sub>macOS 菜单栏与悬浮球，随时查看应用流量。</sub><br>
-      <sub>macOS · 网络工具</sub><br>
-      <sub><a href="https://github.com/gongfpp/NetBall">仓库</a> · <a href="https://github.com/gongfpp/NetBall/releases/latest">下载最新版 ↗</a></sub>
+    <td width="50%" valign="top">
+      <a href="https://gongfpp.github.io/NovelFish/"><img src="assets/projects/selected/novelfish-card.png" width="100%" alt="小说摸鱼 NovelFish 真实界面：技术问答的深度思考区域展开本地小说"></a>
+      <h3><a href="https://gongfpp.github.io/NovelFish/">小说摸鱼 NovelFish</a></h3>
+      <p>把小说藏进「深度思考」，支持 TXT / EPUB、阅读进度与老板键。非官方工具。</p>
+      <p><a href="https://gongfpp.github.io/NovelFish/">在线体验 ↗</a> · <a href="https://github.com/gongfpp/NovelFish">仓库</a> · <a href="https://github.com/gongfpp/dsh-novel-fish">DSH 插件版</a></p>
     </td>
   </tr>
   <tr>
-    <td width="420" valign="top">
-      <a href="https://github.com/gongfpp/aki-agent-kit"><img align="left" src="assets/projects/agent-kit.png" width="140" height="84" alt="aki-agent-kit：中文 AI 开发 Skill 集封面"></a>
-      <strong><a href="https://github.com/gongfpp/aki-agent-kit">aki-agent-kit</a></strong><br>
-      <sub>中文 AI 开发 Skills 与规则，覆盖项目全流程。</sub><br>
-      <sub>Shell · Agent Skills</sub><br>
-      <sub><a href="https://github.com/gongfpp/aki-agent-kit">仓库 ↗</a></sub>
+    <td width="50%" valign="top">
+      <a href="https://gongfpp.github.io/kurumi-fx-pages/"><img src="assets/projects/selected/kurumi-card.png" width="100%" alt="久留美外汇真实游戏界面：选择剧情或无限模式，以及交易 K 线类型"></a>
+      <h3><a href="https://gongfpp.github.io/kurumi-fx-pages/">久留美外汇</a></h3>
+      <p>在行情、交易与剧情里体验「今天也要回本」的外汇模拟游戏。</p>
+      <p><a href="https://gongfpp.github.io/kurumi-fx-pages/">在线试玩 ↗</a> · <a href="https://github.com/gongfpp/kurumi-fx-pages">公开运行仓库</a></p>
     </td>
-    <td width="420" valign="top">
-      <strong>DSH 插件</strong><br>
-      <sub><a href="https://github.com/gongfpp/dsh-novel-fish">小说摸鱼 ↗</a>：在思考与工具区域续读本地小说，不发送给模型。</sub><br>
-      <sub><a href="https://github.com/gongfpp/dsh-cost-voice">大白饭到账语音播报 ↗</a>：每轮结束，默认用「大白饭」音色播报估算花费，可切换支付宝音色。</sub><br>
-      <sub><a href="https://github.com/gongfpp/dsh-thanks-carl">谢谢卡尔 ↗</a>：任务完成彩蛋与常驻桌宠，附喝水、吃饭和休息提醒。</sub><br>
-      <sub>DeepSeek Harness · 非官方插件</sub>
+    <td width="50%" valign="top">
+      <a href="https://gongfpp.github.io/chaoshi-2018/"><img src="assets/projects/selected/chaoshi-card.jpg" width="100%" alt="超时真实游戏开场画面：雨夜中的外卖骑手与游戏标题"></a>
+      <h3><a href="https://gongfpp.github.io/chaoshi-2018/">超时</a></h3>
+      <p>一个杭州外卖骑手的五年：长篇小说与可通关的 Ren’Py 视觉小说。</p>
+      <p><a href="https://gongfpp.github.io/chaoshi-2018/">在线试玩 ↗</a> · <a href="https://github.com/gongfpp/chaoshi-2018">仓库与小说</a></p>
     </td>
   </tr>
   <tr>
-    <td width="420" valign="top">
-      <a href="https://gongfpp.github.io/poor-map/"><img align="left" src="assets/projects/poor-map.png" width="140" height="84" alt="穷鬼地图：附近折扣门店与地图标记"></a>
-      <strong><a href="https://github.com/gongfpp/poor-map">穷鬼地图</a></strong><br>
-      <sub>发现附近的折扣门店与优惠活动。</sub><br>
-      <sub>React · TypeScript · 高德地图</sub><br>
-      <sub><a href="https://github.com/gongfpp/poor-map">仓库</a> · <a href="https://gongfpp.github.io/poor-map/">在线体验 ↗</a></sub>
+    <td width="50%" valign="top">
+      <a href="https://gongfpp.github.io/poor-map/"><img src="assets/projects/selected/poor-map-card.jpg" width="100%" alt="穷鬼地图真实运行界面：宁波道路底图、品牌筛选与同一组门店标记"></a>
+      <h3><a href="https://gongfpp.github.io/poor-map/">穷鬼地图</a></h3>
+      <p>找附近的折扣门店、商超与水价线索；营业、价格和库存仍需核实。</p>
+      <p><a href="https://gongfpp.github.io/poor-map/">在线体验 ↗</a> · <a href="https://github.com/gongfpp/poor-map">仓库</a></p>
     </td>
-    <td width="420" valign="top">
-      <a href="https://gongfpp.github.io/interface-atlas-web/"><img align="left" src="assets/projects/interface-atlas.png" width="140" height="84" alt="界面图谱：前端设计参考库首页"></a>
-      <strong><a href="https://github.com/gongfpp/interface-atlas">界面图谱 Interface Atlas</a></strong><br>
-      <sub>前端设计概念、交互示例与 Agent Prompt 参考库。</sub><br>
-      <sub>Astro · React · TypeScript</sub><br>
-      <sub><a href="https://github.com/gongfpp/interface-atlas">仓库</a> · <a href="https://gongfpp.github.io/interface-atlas-web/">在线体验 ↗</a></sub>
+    <td width="50%" valign="top">
+      <a href="https://github.com/gongfpp/Sonfolio"><img src="assets/projects/selected/sonfolio-card.png" width="100%" alt="声迹 Android 真实运行截图并排展示：首页时间线与本地语音识别设置"></a>
+      <h3><a href="https://github.com/gongfpp/Sonfolio">声迹 Sonfolio</a></h3>
+      <p>本地优先的 Android 语音记录，把录音整理成可阅读、搜索和回听的对话时间线。</p>
+      <p><a href="https://github.com/gongfpp/Sonfolio">仓库与构建指南 ↗</a> · 早期试用</p>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <a href="https://gongfpp.github.io/monkey-shakespeare-web/"><img align="left" src="assets/projects/monkey-shakespeare.png" width="140" height="84" alt="猿与莎士比亚：像素风工作室经营游戏界面"></a>
-      <strong><a href="https://github.com/gongfpp/monkey-shakespeare-web">猿与莎士比亚</a></strong><br>
-      <sub>从一间工作室开始的像素风增量经营游戏。</sub><br>
-      <sub>Godot · Web 游戏 · 公开试玩版</sub><br>
-      <sub><a href="https://github.com/gongfpp/monkey-shakespeare-web">仓库</a> · <a href="https://gongfpp.github.io/monkey-shakespeare-web/">在线体验 ↗</a></sub>
+    <td width="50%" valign="top">
+      <a href="https://github.com/gongfpp/NetBall"><img src="assets/projects/selected/netball-card.png" width="100%" alt="NetBall macOS 应用面板截图：最近 60 秒流量曲线和应用排行，速率为示例数据"></a>
+      <h3><a href="https://github.com/gongfpp/NetBall">NetBall</a></h3>
+      <p>macOS 菜单栏网速监控，支持应用流量排行、代理归属与可选悬浮球。</p>
+      <p><sub>图中速率为示例数据。</sub></p>
+      <p><a href="https://github.com/gongfpp/NetBall/releases/latest">下载与安装 ↗</a> · <a href="https://github.com/gongfpp/NetBall">仓库</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/gongfpp/config-reviewer"><img src="assets/projects/selected/reviewer-card.png" width="100%" alt="配置评审台 Windows 已安装版真实运行截图：按模块展示两个文件的评审结论，使用虚构资料与本地模拟模型"></a>
+      <h3><a href="https://github.com/gongfpp/config-reviewer">配置评审台</a></h3>
+      <p>扫描 ZIP 或本地目录，按模块评审配置与发布资料，导出结构化结论。</p>
+      <p><sub>真实 Windows 界面，图中为虚构资料与模拟模型。</sub></p>
+      <p><a href="https://github.com/gongfpp/config-reviewer">仓库与部署指南 ↗</a> · <a href="https://github.com/gongfpp/config-reviewer-builds">Windows 构建</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/gongfpp/mediagrab"><img src="assets/projects/selected/mediagrab-card.png" width="100%" alt="MediaGrab 真实扩展弹窗：下载此页视频、复制直链和下载方式设置，当前为检测中状态"></a>
+      <h3><a href="https://github.com/gongfpp/mediagrab">MediaGrab</a></h3>
+      <p>Chrome 扩展与本机服务：优先下载视频直链，必要时回落到 yt-dlp。</p>
+      <p><a href="https://github.com/gongfpp/mediagrab">仓库与安装指南 ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/gongfpp/imagegen-skills"><img src="assets/projects/selected/imagegen.webp" width="100%" alt="图片生成 Skill 集的实际生图示例：网页视觉风格静态参考合集，不是可操作的软件界面"></a>
+      <h3><a href="https://github.com/gongfpp/imagegen-skills">图片生成 Skill 集</a></h3>
+      <p>前端风格、UI 组件与拟人插画的生图 Skill 和完整 Prompt，附实际生成示例。</p>
+      <p><a href="https://github.com/gongfpp/imagegen-skills">浏览合集与领取 Prompt ↗</a></p>
     </td>
   </tr>
 </table>
@@ -156,4 +172,4 @@
 
 ---
 
-<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，外部 PR 数排除自己的仓库及生态参与中列出的三个插件目录；日期使用 UTC，数据可能有一天左右的刷新延迟。代码贡献表与明细为上方核验日期的记录，最新列表可点击各项目的已合并数量查看。缩略图与图标来自项目公开截图或素材，项目状态与功能范围以各仓库和在线页面为准；游戏源码不在公开试玩仓库中，门店与优惠信息以地图页面核验说明为准。</sub>
+<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，外部 PR 数排除自己的仓库及生态参与中列出的三个插件目录；日期使用 UTC，数据可能有一天左右的刷新延迟。代码贡献表与明细为上方核验日期的记录，最新列表可点击各项目的已合并数量查看。预览图来自项目真实截图或实际生成示例，项目状态与功能范围以各仓库和在线页面为准；久留美的公开运行仓库不包含游戏源码，门店与优惠信息以地图页面核验说明为准。</sub>
