@@ -1,4 +1,4 @@
-name: Update profile statistics
+name: Update profile statistics and contributions
 
 on:
   schedule:
@@ -21,15 +21,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-profile-stats.mjs
-      - name: Commit changed statistics
+      - name: Refresh merged contribution section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-profile-contributions.mjs
+      - name: Commit changed profile files
         shell: bash
         run: |
-          if git diff --quiet -- profile-stats.svg; then
-            echo "Statistics unchanged"
+          if git diff --quiet -- profile-stats.svg README.md; then
+            echo "Profile already current"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-stats.svg
-          git commit -m "chore: refresh profile statistics [skip ci]"
+          git add profile-stats.svg README.md
+          git commit -m "chore: refresh profile statistics and contributions [skip ci]"
+          git pull --rebase --autostash
           git push

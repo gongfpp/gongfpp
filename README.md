@@ -95,21 +95,24 @@
 
 ## Open Source Contributions
 
-截至 **2026-11-11（UTC+8）**，向 **6 个外部项目**提交的 **20 个 PR 已合并**，涉及浏览器采集、静态分析、AI 请求兼容、插件生命周期与无障碍体验；不含自己的仓库及插件目录收录与维护。
+<!-- contributions:start -->
+截至 **2026-11-25（UTC+8）**，向 **8 个外部项目**提交的 **35 个 PR 已合并**，涉及浏览器采集、静态分析、AI 请求兼容、插件生命周期、编辑器与移动端界面；不含自己的仓库及插件目录收录与维护。
 
 | 项目 | 解决的问题与改进 | 已合并 PR |
 | --- | --- | --- |
 | [**REA**](https://github.com/morluto/rea) | 修复脚本快照、UTF-16 / WASM 引用与路由静态推断问题；保留 Markdown 表格的 Unicode 空白，改进 MCP / CLI 诊断与 CI 示例。 | [10 merged ↗](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
-| [**DSH Market**](https://github.com/dsh-market/dsh-market) | 修复重复挂载、重装后提示不消失、重启原因误报，以及 GIF 封面静止；超限封面回退到静态图。 | [4 merged ↗](https://github.com/dsh-market/dsh-market/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
-| [**billion-context**](https://github.com/ranxianglei/billion-context) | 保留 Responses 客户端的消息角色；补齐 DSH WebSocket 逐帧发送前准备与过期连接身份检查。 | [2 merged ↗](https://github.com/ranxianglei/billion-context/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
-| [**Remotion**](https://github.com/remotion-dev/remotion) | 为 Studio 图标菜单补充无障碍名称，并通过依赖更新移除 Lambda 客户端内嵌的易受攻击 XML 解析器。 | [2 merged ↗](https://github.com/remotion-dev/remotion/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**DSH Market**](https://github.com/dsh-market/dsh-market) | 修复重复挂载与启动崩溃、安装与更新诊断误报、实例状态显示，以及主题吸顶着色；为热挂载补充宿主日志证据。 | [14 merged ↗](https://github.com/dsh-market/dsh-market/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**billion-context**](https://github.com/ranxianglei/billion-context) | 保留 Responses 客户端的消息角色，整体丢弃伪造的工具回显正文；补齐 WebSocket 逐帧发送前准备与过期连接身份检查。 | [3 merged ↗](https://github.com/ranxianglei/billion-context/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**Remotion**](https://github.com/remotion-dev/remotion) | 为 Studio 图标菜单补充无障碍名称，修复低 `toneFrequency` 下的音频渲染崩溃，并通过依赖更新移除 Lambda 客户端内嵌的易受攻击 XML 解析器。 | [3 merged ↗](https://github.com/remotion-dev/remotion/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 | [**Atlas**](https://github.com/tryatlas/atlas) | 让反馈面板的匿名开关更易识别，并向辅助技术提供稳定名称与开关状态。 | [1 merged ↗](https://github.com/tryatlas/atlas/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
-| [**Dify**](https://github.com/langgenius/dify) | 用 Pydantic `TypeAdapter` 校验 Provider 配置缓存，减少手写解析与类型判断。 | [1 merged ↗](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**Dify**](https://github.com/langgenius/dify) | 用 Pydantic 适配器校验 Provider 配置缓存与 LLM 工具参数，减少手写解析与类型判断。 | [2 merged ↗](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**DSH Remote**](https://github.com/liguobao/ds-harness-remote) | 修复 Android 客户端中 Markdown 列表压塌用户气泡、正文覆盖后续回复的排版问题。 | [1 merged ↗](https://github.com/liguobao/ds-harness-remote/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**Trilium**](https://github.com/TriliumNext/Trilium) | 修复通过输入围栏新建代码块时把围栏留作第一行代码的问题。 | [1 merged ↗](https://github.com/TriliumNext/Trilium/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 
 <details>
-<summary>查看这 20 个 PR 的具体贡献</summary>
+<summary>查看这 35 个 PR 的具体贡献</summary>
 
-### REA · 10 个已合并
+### [REA](https://github.com/morluto/rea) · 10 个已合并
 
 - [#8915](https://github.com/morluto/rea/pull/8915)：保留 Markdown 表格首尾的 Unicode 空白，避免不同键值被渲染成相同内容，并避免长文本处理的性能退化。
 - [#6802](https://github.com/morluto/rea/pull/6802)：修复 WASM glue 中查询串或片段含行分隔符时的引用遗漏，并保留 UTF-16 坐标与候选关联。
@@ -118,36 +121,58 @@
 - [#6358](https://github.com/morluto/rea/pull/6358)：补记采集过程中迟到的脚本元数据，避免不完整的页面脚本快照被误判为 unchanged。
 - [#6341](https://github.com/morluto/rea/pull/6341)：保留 JavaScript 存储值的 UTF-16 码元，避免不同字符串被错误地判为相同。
 - [#6298](https://github.com/morluto/rea/pull/6298)：让进程比较结果保留 contradiction 状态，拒绝把互相矛盾的汇总误判为验证成功。
-- [#4661](https://github.com/morluto/rea/pull/4661)：统一 MCP 与 CLI 的浏览器场景输入错误格式，并补充 MCP 回归测试。
 - [#4663](https://github.com/morluto/rea/pull/4663)：ADB 权限信息不完整时明确标记为 partial，避免把未知状态误报为完整的零权限。
+- [#4661](https://github.com/morluto/rea/pull/4661)：统一 MCP 与 CLI 的浏览器场景输入错误格式，并补充 MCP 回归测试。
 - [#2941](https://github.com/morluto/rea/pull/2941)：复用 JavaScript 语义分析中的稳定查找结果，减少重复计算并保持该样例的 IR 输出一致。
 
-### DSH Market · 4 个已合并
+### [DSH Market](https://github.com/dsh-market/dsh-market) · 14 个已合并
 
+- [#1298](https://github.com/dsh-market/dsh-market/pull/1298)：按 monorepo 子包自身的归档解析读取 commit，子包更新后不再误报 STALE / MUTATION_FAILED。
+- [#1284](https://github.com/dsh-market/dsh-market/pull/1284)：包缺失时不再把安装行显示为「已开启」，改为按实际状态给出标记。
+- [#1280](https://github.com/dsh-market/dsh-market/pull/1280)：重启时重放禁用列表不再在已失效的上下文中读取 loader，避免宿主启动崩溃。
+- [#1274](https://github.com/dsh-market/dsh-market/pull/1274)：子进程不再继承已删除的工作目录，npm 的 uv_cwd ENOENT 也不再被误判成「没有安装 npm」。
+- [#1251](https://github.com/dsh-market/dsh-market/pull/1251)：市场调用超时上限高于宿主的 pnpm 看门狗，让宿主先给出真实的卡住原因。
+- [#1246](https://github.com/dsh-market/dsh-market/pull/1246)：主题可只在吸顶行处于吸顶状态时着色，避免卡片从透明表头下穿过。
+- [#1241](https://github.com/dsh-market/dsh-market/pull/1241)：插件清单变化不再显示为「检查失败」，改为提示列表已变更并可重新检查。
+- [#1211](https://github.com/dsh-market/dsh-market/pull/1211)：安装失败诊断区分插件兼容上限过低与宿主版本不足，不再一律引导升级宿主。
+- [#1205](https://github.com/dsh-market/dsh-market/pull/1205)：热挂载期间记录宿主日志，挂载成功后把其中的 warn / error 一并输出为证据。
+- [#1177](https://github.com/dsh-market/dsh-market/pull/1177)：启用 carrier bundle 时不再清掉 `disabled: !!js` 守卫，避免同一进程重复挂载 storage domain 导致宿主退出。
 - [#1165](https://github.com/dsh-market/dsh-market/pull/1165)：按实际安装的包名清理「声明已移除」提示，避免目录显示名与包名不同时重装后仍保留旧提示。
 - [#1145](https://github.com/dsh-market/dsh-market/pull/1145)：按插件声明读取 patch，并根据实际结构解释需要重启的原因，不再一律归因于配置或表达式。
 - [#1141](https://github.com/dsh-market/dsh-market/pull/1141)：跳过已由 bundle 层挂载的客户端包，避免重复注册服务。
 - [#1126](https://github.com/dsh-market/dsh-market/pull/1126)：让精选 GIF 封面以动画 WebP 显示；超过解码限制时回退到静态缩略图，避免封面损坏。
 
-### billion-context · 2 个已合并
+### [billion-context](https://github.com/ranxianglei/billion-context) · 3 个已合并
 
+- [#6633](https://github.com/ranxianglei/billion-context/pull/6633)：整体丢弃工具类型的标签回显段落，避免伪造的工具结果被当作普通回复保留并被反复照抄。
 - [#6064](https://github.com/ranxianglei/billion-context/pull/6064)：重建 Responses 输入时保留客户端首段 `system` / `developer` 角色，避免向不支持 `developer` 的上游发送错误角色。
 - [#5840](https://github.com/ranxianglei/billion-context/pull/5840)：在既有 DSH WebSocket 接入修复上补齐逐帧发送前的请求体准备，并检查缓存连接的身份、模型与激活状态，拒绝以过期元数据发送。
 
-### Remotion · 2 个已合并
+### [Remotion](https://github.com/remotion-dev/remotion) · 3 个已合并
 
+- [#13518](https://github.com/remotion-dev/remotion/pull/13518)：低 `toneFrequency` 时链式生成 `atempo`，修复音频渲染崩溃。
 - [#12960](https://github.com/remotion-dev/remotion/pull/12960)：为 Studio 左上角的纯图标菜单按钮补充可访问名称，保持文本菜单原有命名行为。
 - [#12943](https://github.com/remotion-dev/remotion/pull/12943)：更新 `@aws-sdk/xml-builder` 的依赖覆盖，移除 `@remotion/lambda-client` 中内嵌的易受攻击 `fast-xml-parser` 副本。
 
-### Atlas · 1 个已合并
+### [Atlas](https://github.com/tryatlas/atlas) · 1 个已合并
 
 - [#406](https://github.com/tryatlas/atlas/pull/406)：为反馈面板的匿名开关补充悬停提示、开关语义与稳定的无障碍名称，使可点击性和当前状态更明确。
 
-### Dify · 1 个已合并
+### [Dify](https://github.com/langgenius/dify) · 2 个已合并
 
+- [#44058](https://github.com/langgenius/dify/pull/44058)：用 Pydantic 适配器解析 LLM 工具参数，替代手写 `json.loads` 与类型判断。
 - [#44055](https://github.com/langgenius/dify/pull/44055)：用 Pydantic `TypeAdapter` 校验 Provider 配置缓存数据，减少手写解析与类型判断。
 
+### [DSH Remote](https://github.com/liguobao/ds-harness-remote) · 1 个已合并
+
+- [#554](https://github.com/liguobao/ds-harness-remote/pull/554)：修复用户气泡内 Markdown 列表列宽塌陷、正文压到后续回复的问题。
+
+### [Trilium](https://github.com/TriliumNext/Trilium) · 1 个已合并
+
+- [#12761](https://github.com/TriliumNext/Trilium/pull/12761)：通过输入 ``` 新建代码块时不再把围栏留作第一行代码。
+
 </details>
+<!-- contributions:end -->
 
 <details>
 <summary>生态参与：社区插件目录收录与维护</summary>
@@ -172,4 +197,4 @@
 
 ---
 
-<sub>统计卡由 GitHub Actions 每日从公开 API 自动更新，外部 PR 数排除自己的仓库及生态参与中列出的三个插件目录；日期使用 UTC，数据可能有一天左右的刷新延迟。代码贡献表与明细为上方核验日期的记录，最新列表可点击各项目的已合并数量查看。预览图来自项目真实截图或实际生成示例，项目状态与功能范围以各仓库和在线页面为准；久留美的公开运行仓库不包含游戏源码，门店与优惠信息以地图页面核验说明为准。</sub>
+<sub>统计卡与代码贡献表由 GitHub Actions 每日从公开 API 自动更新：外部 PR 数、项目与明细均排除自己的仓库及生态参与中列出的三个插件目录，统计卡日期使用 UTC，贡献表使用 UTC+8，数据可能有一天左右的刷新延迟；新合并的 PR 会自动进入明细，中文说明随后补充。预览图来自项目真实截图或实际生成示例，项目状态与功能范围以各仓库和在线页面为准；久留美的公开运行仓库不包含游戏源码，门店与优惠信息以地图页面核验说明为准。</sub>
