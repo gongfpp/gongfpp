@@ -96,21 +96,21 @@
 ## Open Source Contributions
 
 <!-- contributions:start -->
-截至 **2026-11-26（UTC+8）**，向 **8 个外部项目**提交的 **35 个 PR 已合并**，涉及浏览器采集、静态分析、AI 请求兼容、插件生命周期、编辑器与移动端界面；不含自己的仓库及插件目录收录与维护。
+截至 **2026-11-27（UTC+8）**，向 **8 个外部项目**提交的 **37 个 PR 已合并**，涉及浏览器采集、静态分析、AI 请求兼容、插件生命周期、编辑器与移动端界面；不含自己的仓库及插件目录收录与维护。
 
 | 项目 | 解决的问题与改进 | 已合并 PR |
 | --- | --- | --- |
 | [**REA**](https://github.com/morluto/rea) | 修复脚本快照、UTF-16 / WASM 引用与路由静态推断问题；保留 Markdown 表格的 Unicode 空白，改进 MCP / CLI 诊断与 CI 示例。 | [10 merged ↗](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
-| [**DSH Market**](https://github.com/dsh-market/dsh-market) | 修复重复挂载与启动崩溃、安装与更新诊断误报、实例状态显示，以及主题吸顶着色；为热挂载补充宿主日志证据。 | [14 merged ↗](https://github.com/dsh-market/dsh-market/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**DSH Market**](https://github.com/dsh-market/dsh-market) | 修复重复挂载与启动崩溃、安装与更新诊断误报、实例状态显示，以及主题吸顶着色；为热挂载补充宿主日志证据。 | [15 merged ↗](https://github.com/dsh-market/dsh-market/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 | [**billion-context**](https://github.com/ranxianglei/billion-context) | 保留 Responses 客户端的消息角色，整体丢弃伪造的工具回显正文；补齐 WebSocket 逐帧发送前准备与过期连接身份检查。 | [3 merged ↗](https://github.com/ranxianglei/billion-context/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 | [**Remotion**](https://github.com/remotion-dev/remotion) | 为 Studio 图标菜单补充无障碍名称，修复低 `toneFrequency` 下的音频渲染崩溃，并通过依赖更新移除 Lambda 客户端内嵌的易受攻击 XML 解析器。 | [3 merged ↗](https://github.com/remotion-dev/remotion/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 | [**Atlas**](https://github.com/tryatlas/atlas) | 让反馈面板的匿名开关更易识别，并向辅助技术提供稳定名称与开关状态。 | [1 merged ↗](https://github.com/tryatlas/atlas/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 | [**Dify**](https://github.com/langgenius/dify) | 用 Pydantic 适配器校验 Provider 配置缓存与 LLM 工具参数，减少手写解析与类型判断。 | [2 merged ↗](https://github.com/langgenius/dify/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
-| [**DSH Remote**](https://github.com/liguobao/ds-harness-remote) | 修复 Android 客户端中 Markdown 列表压塌用户气泡、正文覆盖后续回复的排版问题。 | [1 merged ↗](https://github.com/liguobao/ds-harness-remote/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
+| [**DSH Remote**](https://github.com/liguobao/ds-harness-remote) | 修复 Android 客户端中 Markdown 列表压塌用户气泡、正文覆盖后续回复的排版问题。 | [2 merged ↗](https://github.com/liguobao/ds-harness-remote/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 | [**Trilium**](https://github.com/TriliumNext/Trilium) | 修复通过输入围栏新建代码块时把围栏留作第一行代码的问题。 | [1 merged ↗](https://github.com/TriliumNext/Trilium/pulls?q=is%3Apr+author%3Agongfpp+is%3Amerged) |
 
 <details>
-<summary>查看这 35 个 PR 的具体贡献</summary>
+<summary>查看这 37 个 PR 的具体贡献</summary>
 
 ### [REA](https://github.com/morluto/rea) · 10 个已合并
 
@@ -125,8 +125,9 @@
 - [#4661](https://github.com/morluto/rea/pull/4661)：统一 MCP 与 CLI 的浏览器场景输入错误格式，并补充 MCP 回归测试。
 - [#2941](https://github.com/morluto/rea/pull/2941)：复用 JavaScript 语义分析中的稳定查找结果，减少重复计算并保持该样例的 IR 输出一致。
 
-### [DSH Market](https://github.com/dsh-market/dsh-market) · 14 个已合并
+### [DSH Market](https://github.com/dsh-market/dsh-market) · 15 个已合并
 
+- [#1311](https://github.com/dsh-market/dsh-market/pull/1311)：market: undo the routes a failed registration left live on the host
 - [#1298](https://github.com/dsh-market/dsh-market/pull/1298)：按 monorepo 子包自身的归档解析读取 commit，子包更新后不再误报 STALE / MUTATION_FAILED。
 - [#1284](https://github.com/dsh-market/dsh-market/pull/1284)：包缺失时不再把安装行显示为「已开启」，改为按实际状态给出标记。
 - [#1280](https://github.com/dsh-market/dsh-market/pull/1280)：重启时重放禁用列表不再在已失效的上下文中读取 loader，避免宿主启动崩溃。
@@ -163,8 +164,9 @@
 - [#44058](https://github.com/langgenius/dify/pull/44058)：用 Pydantic 适配器解析 LLM 工具参数，替代手写 `json.loads` 与类型判断。
 - [#44055](https://github.com/langgenius/dify/pull/44055)：用 Pydantic `TypeAdapter` 校验 Provider 配置缓存数据，减少手写解析与类型判断。
 
-### [DSH Remote](https://github.com/liguobao/ds-harness-remote) · 1 个已合并
+### [DSH Remote](https://github.com/liguobao/ds-harness-remote) · 2 个已合并
 
+- [#629](https://github.com/liguobao/ds-harness-remote/pull/629)：fix(plugin): keep an owned storage root when a foreign directory owns the legacy name
 - [#554](https://github.com/liguobao/ds-harness-remote/pull/554)：修复用户气泡内 Markdown 列表列宽塌陷、正文压到后续回复的问题。
 
 ### [Trilium](https://github.com/TriliumNext/Trilium) · 1 个已合并
